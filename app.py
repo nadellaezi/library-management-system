@@ -23,7 +23,6 @@ app.jinja_env.globals.update(
 app.register_blueprint(user_view)
 app.register_blueprint(book_view)
 app.register_blueprint(admin_view)
-app.register_blueprint(about_view)
 
 #@app.route('/about')
 #def about():
